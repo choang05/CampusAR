@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<populationDB xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Population>
+    <ActorData Quantos_x003A_="20" AnchorRadius_x003A_="0" AnchorHeight_x003A_="0">
+      <Citizens>
+        <Adultos_x003A_>Character_BusinessMan_Shirt_01</Adultos_x003A_>
+        <Adultos_x003A_>Character_BusinessMan_Suit_01</Adultos_x003A_>
+        <Adultos_x003A_>Character_BusinessWoman_01</Adultos_x003A_>
+        <Adultos_x003A_>Character_Female_Coat_01</Adultos_x003A_>
+        <Adultos_x003A_>Character_Female_Jacket_01</Adultos_x003A_>
+        <Adultos_x003A_>Character_Male_Hoodie_01</Adultos_x003A_>
+        <Adultos_x003A_>Character_Male_Jacket_01</Adultos_x003A_>
+      </Citizens>
+      <Children />
+      <Position_x003A_>
+        <Anchors_x003A_>
+          <x>23.3069382</x>
+          <y>65.5955</y>
+          <z>-2.01067948</z>
+        </Anchors_x003A_>
+      </Position_x003A_>
+      <Trabalhador_x003A_>
+        <Workers_x003A_>
+          <tipo>0</tipo>
+          <count>1</count>
+          <nome>Character_BusinessMan_Shirt_01</nome>
+          <posicao>
+            <x>23.3069382</x>
+            <y>65.5955</y>
+            <z>-2.01067948</z>
+          </posicao>
+          <raioAtracao>0</raioAtracao>
+          <animacao>Run_0</animacao>
+          <delivery>
+            <x>0</x>
+            <y>0</y>
+            <z>0</z>
+          </delivery>
+          <freedom>0</freedom>
+        </Workers_x003A_>
+      </Trabalhador_x003A_>
+    </ActorData>
+  </Population>
+</populationDB>

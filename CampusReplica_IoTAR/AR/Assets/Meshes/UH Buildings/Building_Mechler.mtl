@@ -1,0 +1,5 @@
+newmtl Buildings
+Kd 1 1 1
+map_Kd C:\Users\chadh\Documents\GitHub\UHSpaceMakers2018\CampusReplica_IoTAR\AR\Assets\Meshes\UH Buildings\SanFran_wallDiffuse.png
+illum 2
+
