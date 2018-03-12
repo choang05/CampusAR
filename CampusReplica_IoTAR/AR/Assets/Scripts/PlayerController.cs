@@ -50,7 +50,7 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         //MoveCurrentObjectToMouse();
-
+        CheckCenterRaycast();
 
 
     }
@@ -71,12 +71,18 @@ public class PlayerController : MonoBehaviour
 
         LayerMask allowedRaycasts = Layers.Building | Layers.Terrain;
 
-        if (Physics.Raycast(ray, out hit, allowedRaycasts))
+        //  Debug ray
+        #if UNITY_EDITOR	
+        Debug.DrawRay(ray.origin, ray.direction * 250, Color.red);
+        #endif
+
+        if (Physics.Raycast(ray, out hit, 250, allowedRaycasts))
         {
             //  if it hit a building...
-            if (hit.collider.gameObject.layer == Layers.Building)
+            if ((1 << hit.collider.gameObject.layer) == Layers.Building.value)
             {
-
+                Building building = hit.collider.GetComponent<Building>();
+                Debug.Log(building.GetName());
             }
 
             //  if left click...

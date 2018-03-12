@@ -15,8 +15,8 @@ public class Layers
     public const int IRoad = 11;
 
     //public static readonly LayerMask Grid = 1 << 8;
-    public static readonly LayerMask Terrain = 1 << 8;
-    public static readonly LayerMask Building = 1 << 9;
+    public static readonly LayerMask Terrain = 1 << LayerMask.NameToLayer("Terrain");
+    public static readonly LayerMask Building = 1 << LayerMask.NameToLayer("Building");
     //public static readonly LayerMask Unit = 1 << 10;
 
 
