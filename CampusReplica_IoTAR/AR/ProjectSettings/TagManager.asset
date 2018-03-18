@@ -7,6 +7,7 @@ TagManager:
   - Building
   - Node
   - MainBuilding
+  - PopulationManager
   layers:
   - Default
   - TransparentFX
@@ -18,6 +19,8 @@ TagManager:
   - 
   - Terrain
   - Building
+  - Gajos
+  - ScaledContent
   - 
   - 
   - 
@@ -37,9 +40,7 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
-  - 
+  - HLOD
   m_SortingLayers:
   - name: Default
     uniqueID: 0

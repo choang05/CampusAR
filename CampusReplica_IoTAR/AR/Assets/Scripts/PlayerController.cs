@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using Chad_Hoang;
 
 /// <summary>
 ///     
@@ -9,6 +10,7 @@ using UnityEngine.UI;
 public class PlayerController : MonoBehaviour 
 {
     #region PUBLIC_VARIABLES
+    public Building currentLookAtBuilding;
     public static PlayerController instance = null;              //Static instance which allows it to be accessed by any other script.
     public KeyCode newObjectHotkey = KeyCode.A;
     #endregion // PUBLIC_VARIABLES
@@ -76,13 +78,17 @@ public class PlayerController : MonoBehaviour
         Debug.DrawRay(ray.origin, ray.direction * 250, Color.red);
         #endif
 
-        if (Physics.Raycast(ray, out hit, 250, allowedRaycasts))
+        if (Physics.Raycast(ray, out hit, 150, allowedRaycasts))
         {
             //  if it hit a building...
             if ((1 << hit.collider.gameObject.layer) == Layers.Building.value)
             {
-                Building building = hit.collider.GetComponent<Building>();
-                Debug.Log(building.GetName());
+                currentLookAtBuilding = hit.collider.GetComponent<Building>();
+                //Debug.Log(building.GetName());
+            }
+            else
+            {
+                currentLookAtBuilding = null;
             }
 
             //  if left click...

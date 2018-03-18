@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using Chad_Hoang;
 
 /// <summary>
 ///     
@@ -60,19 +61,19 @@ public class NPCManager : MonoBehaviour
             //float x = Random.Range(-SpawnRadius, SpawnRadius);
             //float z = Random.Range(-SpawnRadius, SpawnRadius);
             //Vector3 pos = new Vector3(x, RaycastHeight, z) + MainBuilding.position;
-            Vector3 pos = MainBuilding.GetRandomPOI().position + new Vector3(0, RaycastHeight, 0);
+            //Vector3 pos = MainBuilding.GetRandomPOI().position + new Vector3(0, RaycastHeight, 0);
 
             //  Fire raycast towards terrain
-            Vector3 down = transform.TransformDirection(Vector3.down);
-            RaycastHit hit;
-            #if UNITY_EDITOR
-            Debug.DrawRay(pos, down * 100, Color.red, 1);
-            #endif
-            if (Physics.Raycast(pos, down, out hit, 100, Layers.Terrain))
-            {
-                //  Spawn units
-                GameObject currentPlaceableObject = Instantiate(NPCs[Random.Range(0, NPCs.Length)], hit.point, Quaternion.FromToRotation(Vector3.up, hit.normal), transform);
-            }
+            //Vector3 down = transform.TransformDirection(Vector3.down);
+            //RaycastHit hit;
+            //#if UNITY_EDITOR
+            //Debug.DrawRay(pos, down * 100, Color.red, 1);
+            //#endif
+            //if (Physics.Raycast(pos, down, out hit, 100, Layers.Terrain))
+            //{
+            //    //  Spawn units
+            //    GameObject currentPlaceableObject = Instantiate(NPCs[Random.Range(0, NPCs.Length)], hit.point, Quaternion.FromToRotation(Vector3.up, hit.normal), transform);
+            //}
         }
     }
 	
