@@ -8,6 +8,8 @@ TagManager:
   - Node
   - MainBuilding
   - PopulationManager
+  - Stats
+  - text_totalStudents
   layers:
   - Default
   - TransparentFX

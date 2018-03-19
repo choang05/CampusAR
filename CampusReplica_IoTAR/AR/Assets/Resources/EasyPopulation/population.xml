@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <populationDB xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Population>
-    <ActorData Quantos_x003A_="100" AnchorRadius_x003A_="0" AnchorHeight_x003A_="0">
+    <ActorData Quantos_x003A_="50" AnchorRadius_x003A_="0" AnchorHeight_x003A_="0">
       <Citizens>
         <Adultos_x003A_>Character_BusinessMan_Shirt_01</Adultos_x003A_>
         <Adultos_x003A_>Character_BusinessMan_Suit_01</Adultos_x003A_>

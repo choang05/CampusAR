@@ -4,7 +4,9 @@ using UnityEngine;
 
 public static class Tags
 {
-    public static string Building = "Building";
+    public const string Building = "Building";
+    public const string Stats = "Stats";
+    public const string TotalStudents = "text_totalStudents";
     //public static string DefaultButton = "DefaultButton";
 
     //  A* Pathfinding specific tags

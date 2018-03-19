@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 /// <summary>
 ///     
@@ -13,10 +14,14 @@ namespace Chad_Hoang
     public class Building : MonoBehaviour
     {
         #region PUBLIC_VARIABLES
+        public static int TotalStudents = 0;
+        public int Students;
+        public int MaxStudents = 3000;
+        public int MinStudents = 100;
         //public bool IsConnected;
         //public Building ClosestNeighbor;
         //public List<ERRoad> roads = new List<ERRoad>();
-        public static int AvaliableBuildingID;
+        //public static int AvaliableBuildingID;
 
         public delegate void BuildingEvent(Building building);
         public static event BuildingEvent OnBuildingEnabled;
@@ -24,6 +29,8 @@ namespace Chad_Hoang
         #endregion // PUBLIC_VARIABLES
 
         #region PRIVATE_VARIABLES
+        private BuildingUI buildingUI;
+
         private Animator animatorUI;
         private int isOpenHash = Animator.StringToHash("isOpen");
 
@@ -34,12 +41,22 @@ namespace Chad_Hoang
         #region UNTIY_MONOBEHAVIOUR_METHODS
 	    void Awake () 
 	    {
+            buildingUI = GetComponent<BuildingUI>();
             animatorUI = GetComponentInChildren<Animator>();
             playerController = FindObjectOfType<PlayerController>();
         }
 	
 	    void Start ()
         {
+            //  Randomize students in building and add to total
+            Students = Random.Range(MinStudents, MaxStudents);
+            TotalStudents += Students;
+
+            //  Update UI
+            if (buildingUI)
+            {
+                buildingUI.UpdateStats();
+            }
             //InitializeLineRenderer();
             //  Assign unique ID
             //AvaliableBuildingID++;
@@ -65,6 +82,9 @@ namespace Chad_Hoang
                     animatorUI.SetBool(isOpenHash, false);
                 }
             }
+
+            //  Update ui
+
         }
 
         void OnEnable()
