@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<populationDB xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Population>
+    <ActorData Quantos_x003A_="50" AnchorRadius_x003A_="0" AnchorHeight_x003A_="0">
+      <Citizens>
+        <Adultos_x003A_>Character_BusinessMan_Shirt_01</Adultos_x003A_>
+        <Adultos_x003A_>Character_BusinessMan_Suit_01</Adultos_x003A_>
+        <Adultos_x003A_>Character_BusinessWoman_01</Adultos_x003A_>
+        <Adultos_x003A_>Character_Female_Coat_01</Adultos_x003A_>
+        <Adultos_x003A_>Character_Female_Jacket_01</Adultos_x003A_>
+        <Adultos_x003A_>Character_Female_Police_01</Adultos_x003A_>
+        <Adultos_x003A_>Character_Male_Hoodie_01</Adultos_x003A_>
+        <Adultos_x003A_>Character_Male_Jacket_01</Adultos_x003A_>
+        <Adultos_x003A_>Character_Male_Police_01</Adultos_x003A_>
+      </Citizens>
+      <Children />
+      <Position_x003A_>
+        <Anchors_x003A_>
+          <x>61.6697</x>
+          <y>0</y>
+          <z>20.3409519</z>
+        </Anchors_x003A_>
+        <Anchors_x003A_>
+          <x>48.4420547</x>
+          <y>0</y>
+          <z>-27.7731934</z>
+        </Anchors_x003A_>
+        <Anchors_x003A_>
+          <x>17.8718662</x>
+          <y>0</y>
+          <z>43.14513</z>
+        </Anchors_x003A_>
+        <Anchors_x003A_>
+          <x>20.6140461</x>
+          <y>0</y>
+          <z>1.37562156</z>
+        </Anchors_x003A_>
+        <Anchors_x003A_>
+          <x>-23.5997238</x>
+          <y>0</y>
+          <z>18.5029125</z>
+        </Anchors_x003A_>
+        <Anchors_x003A_>
+          <x>-66.038475</x>
+          <y>0</y>
+          <z>15.7146425</z>
+        </Anchors_x003A_>
+        <Anchors_x003A_>
+          <x>-39.68053</x>
+          <y>0</y>
+          <z>58.68138</z>
+        </Anchors_x003A_>
+        <Anchors_x003A_>
+          <x>2.35587287</x>
+          <y>0</y>
+          <z>-43.99189</z>
+        </Anchors_x003A_>
+        <Anchors_x003A_>
+          <x>-42.11158</x>
+          <y>0</y>
+          <z>-25.1338043</z>
+        </Anchors_x003A_>
+      </Position_x003A_>
+      <Trabalhador_x003A_ />
+    </ActorData>
+  </Population>
+</populationDB>

@@ -1,0 +1,22 @@
+{
+    "MonoBehaviour": {
+        "m_Enabled": true,
+        "m_EditorHideFlags": 0,
+        "m_Name": "Fbx Export Settings",
+        "m_EditorClassIdentifier": "",
+        "mayaCompatibleNames": true,
+        "centerObjects": true,
+        "launchAfterInstallation": true,
+        "HideSendToUnityMenu": true,
+        "ExportFormatSelection": 0,
+        "IntegrationSavePath": "C:/Users/chadh/Documents/GitHub/UHSpaceMakers2018/CampusReplica_IoTAR/AR/Assets/Meshes/UH Buildings",
+        "selectedDCCApp": 0,
+        "convertToModelSavePath": "Meshes/UH Buildings",
+        "dccOptionNames": [
+            "Maya 2017"
+        ],
+        "dccOptionPaths": [
+            "C:/Program Files/Autodesk/Maya2017/bin/maya.exe"
+        ]
+    }
+}
