@@ -2122,7 +2122,7 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 41.65
+  m_fontSize: 48.2
   m_fontSizeBase: 8
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -5237,7 +5237,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 5.8182373, y: -5.8182373}
-  m_SizeDelta: {x: -518.58136, y: -443.8182}
+  m_SizeDelta: {x: -518.58136, y: -385.81824}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &544846169
 MonoBehaviour:
@@ -20476,7 +20476,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   visualizeAnchors: 1
-  quantity: 50
+  quantity: 150
   templatesCitizens:
   - {fileID: 153506, guid: 5e488cfd825ce044395037d93a9d8eb6, type: 2}
   - {fileID: 128674, guid: 471247d5cf89b2c46bcde0f08524197e, type: 2}
