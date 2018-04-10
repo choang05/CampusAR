@@ -1,2 +1,0 @@
-https://luusi42k76.execute-api.us-west-2.amazonaws.com/Alpha/buildings/id?id="YOUR ID HERE W/O QOUTES"
-https://luusi42k76.execute-api.us-west-2.amazonaws.com/Alpha/buildings?isActive="TRUE OR FALSE W/O QOUTES"&id="YOUR ID HERE W/O QOUTES"
