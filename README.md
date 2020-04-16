@@ -4,4 +4,6 @@ Makerspace UH is part of an effort to gain interest from STEM and Non-STEM major
 (Creating buildings, NPC pathfinding, auto-road connections, etc.)
 
 ## AR Demo: https://imgur.com/Ka4Sz53 
+![](https://i.imgur.com/Ka4Sz53.gif)
+
 (Replica of campus with NPCs and pop-up statistics)
